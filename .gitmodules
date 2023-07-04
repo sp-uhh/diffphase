@@ -1,0 +1,3 @@
+[submodule "sgmse"]
+	path = sgmse
+	url = https://github.com/sp-uhh/sgmse.git
