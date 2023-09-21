@@ -58,7 +58,7 @@ To see all available training options, run `python train.py --help`. Also see th
 We provide an example script that takes a `.wav` file as an input, removes the phase and writes a reconstructed signal to another `.wav` file. Reconstruction is performed using the same procedure described in our paper. To use it, run
 
 ```bash
-python enhancement.py --input <input_wav> --output <reconstructed_wav> --ckpt <path_to_model_checkpoint> --N <number_of_reverse_steps>
+python reconstruct.py --input <input_wav> --output <reconstructed_wav> --ckpt <path_to_model_checkpoint> --N <number_of_reverse_steps>
 ```
 
 
